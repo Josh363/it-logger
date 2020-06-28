@@ -34,7 +34,7 @@ const SearchBar = ({ searchLogs }) => {
 }
 
 SearchBar.propTypes = {
-  searchlogs: PropTypes.func.isRequired,
+  searchlogs: PropTypes.func,
 }
 
 export default connect(null, { searchLogs })(SearchBar)
